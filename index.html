@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>trabalho maison 9 ano</title>
+    
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coleta Seletiva - Escola e Casa</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #e8f5e9, #f1f8e9);
+    color: #333;
+}
+
+header {
+    background: linear-gradient(90deg, #2e8b57, #3cb371);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    animation: fadeIn 2s ease-in;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+nav {
+    background-color: #2e8b57;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ffff99;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    color: #2e8b57;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.lixeiras {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+}
+
+.lixeira {
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.azul { background: #1e90ff; }
+.vermelho { background: #ff4d4d; }
+.verde { background: #2ecc71; }
+.amarelo { background: #f1c40f; color: black; }
+.marrom { background: #8b4513; }
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea, button {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #2e8b57;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #3cb371;
+}
+
+footer {
+    background: #2e8b57;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🌱 Coleta Seletiva na Escola e em Casa ♻️</h1>
+    <p>Pequenas atitudes transformam o mundo 🌎</p>
+</header>
+
+<nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#escola">Escola</a>
+    <a href="#casa">Casa</a>
+    <a href="#cores">Lixeiras</a>
+    <a href="#formulario">Participar</a>
+</nav>
+
+<section id="sobre">
+    <h2>O que é Coleta Seletiva?</h2>
+    <div class="card">
+        <p>A coleta seletiva é o processo de separar o lixo de acordo com o tipo de material.
+Ela permite que resíduos como papel, plástico, vidro e metal sejam reciclados.
+Essa separação ajuda a reduzir a quantidade de lixo nos aterros sanitários.
+Também diminui a poluição do solo, da água e do ar.
+Com a reciclagem, economizamos recursos naturais como árvores, água e minérios.
+A coleta seletiva começa com atitudes simples em casa, na escola e no trabalho.
+É importante lavar as embalagens antes de descartá-las para reciclagem.
+          <br>
+Cada material deve ser colocado na lixeira correta, seguindo as cores indicadas.
+Esse hábito contribui para um planeta mais limpo e sustentável.
+Quando todos participam, os benefícios para o meio ambiente são ainda maiores. 
+</p>
+    </div>
+</section>
+
+
+
+<section id="escola">
+    <h2>Na Escola</h2>
+    <div class="card">
+        <ul>
+            <li> Separar o lixo corretamente.
+          <li> Evitar desperdício de papel.</li>
+            <li>Participar de projetos ambientais.</li>
+            <li>Incentivar os colegas.</li>
+        </ul>
+    </div>
+</section>
+
+<section id="casa">
+    <h2>Em Casa</h2>
+    <div class="card">
+        <ul>
+            <li>Separar plástico, papel, vidro e metal.</li>
+            <li>Lavar embalagens antes de reciclar.</li>
+            <li>Reduzir o consumo de plástico.</li>
+            <li>Reutilizar materiais.</li>
+        </ul>
+    </div>
+</section>
+
+<section id="cores">
+    <h2>Cores das Lixeiras</h2>
+    <div class="lixeiras">
+        <div class="lixeira azul"> Azul<br>Papel</div>
+        <div class="lixeira vermelho"> Vermelho<br>Plástico</div>
+        <div class="lixeira verde">Verde<br>Vidro</div>
+        <div class="lixeira amarelo"> Amarelo<br>Metal</div>
+        <div class="lixeira marrom"> Marrom<br>Orgânico</div>
+    </div>
+</section>
+
+<section id="formulario">
+    <h2>Participe do Projeto 🌎</h2>
+    <div class="card">
+        <form onsubmit="enviarFormulario(event)">
+            <input type="text" id="nome" placeholder="Seu nome" required>
+            <input type="email" id="email" placeholder="Seu email" required>
+            <textarea id="mensagem" rows="4" placeholder="Como você ajuda o meio ambiente?" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="resposta"></p>
+    </div>
+</section>
+
+<footer>
+    <p>Projeto Escolar de Sustentabilidade ♻️ 2026</p>
+</footer>
+
+<script>
+function enviarFormulario(event) {
+    event.preventDefault();
+    let nome = document.getElementById("nome").value;
+    document.getElementById("resposta").innerHTML =
+        "🌱 Obrigado por participar, " + nome + "! Juntos fazemos a diferença!";
+}
+</script>
+
+</body>
+</html>
+    
+  </body>
+  
+</html>
